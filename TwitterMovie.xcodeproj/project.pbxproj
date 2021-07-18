@@ -13,8 +13,6 @@
 		4435E9C426A37215007562A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4435E9C226A37215007562A2 /* Main.storyboard */; };
 		4435E9C626A37218007562A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4435E9C526A37218007562A2 /* Assets.xcassets */; };
 		4435E9C926A37218007562A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4435E9C726A37218007562A2 /* LaunchScreen.storyboard */; };
-		4435E9D426A37219007562A2 /* TwitterMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435E9D326A37219007562A2 /* TwitterMovieTests.swift */; };
-		4435E9DF26A37219007562A2 /* TwitterMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435E9DE26A37219007562A2 /* TwitterMovieUITests.swift */; };
 		4435E9F826A3723B007562A2 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435E9EF26A3723B007562A2 /* SearchTableViewCell.swift */; };
 		4435E9F926A3723B007562A2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435E9F026A3723B007562A2 /* SearchViewController.swift */; };
 		4435E9FA26A3723B007562A2 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435E9F126A3723B007562A2 /* SearchPresenter.swift */; };
@@ -43,13 +41,6 @@
 			remoteGlobalIDString = 4435E9B826A37215007562A2;
 			remoteInfo = TwitterMovie;
 		};
-		4435E9DB26A37219007562A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4435E9B126A37215007562A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4435E9B826A37215007562A2;
-			remoteInfo = TwitterMovie;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -62,11 +53,7 @@
 		4435E9C826A37218007562A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4435E9CA26A37218007562A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4435E9CF26A37219007562A2 /* TwitterMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4435E9D326A37219007562A2 /* TwitterMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMovieTests.swift; sourceTree = "<group>"; };
 		4435E9D526A37219007562A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4435E9DA26A37219007562A2 /* TwitterMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4435E9DE26A37219007562A2 /* TwitterMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMovieUITests.swift; sourceTree = "<group>"; };
-		4435E9E026A37219007562A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4435E9EF26A3723B007562A2 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		4435E9F026A3723B007562A2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4435E9F126A3723B007562A2 /* SearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
@@ -101,13 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4435E9D726A37219007562A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,7 +96,6 @@
 			children = (
 				4435E9BB26A37215007562A2 /* TwitterMovie */,
 				4435E9D226A37219007562A2 /* TwitterMovieTests */,
-				4435E9DD26A37219007562A2 /* TwitterMovieUITests */,
 				4435E9BA26A37215007562A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +105,6 @@
 			children = (
 				4435E9B926A37215007562A2 /* TwitterMovie.app */,
 				4435E9CF26A37219007562A2 /* TwitterMovieTests.xctest */,
-				4435E9DA26A37219007562A2 /* TwitterMovieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,22 +130,12 @@
 			children = (
 				4435EA1526A39F35007562A2 /* TestUtil.swift */,
 				4435EA1326A39F12007562A2 /* TestData.json */,
-				4435E9D326A37219007562A2 /* TwitterMovieTests.swift */,
 				4435E9D526A37219007562A2 /* Info.plist */,
 				4435EA1726A39F7B007562A2 /* SearchModelTests.swift */,
 				4435EA1B26A3B8E0007562A2 /* SearchPresenterTests.swift */,
 				4435EA1D26A3B8F5007562A2 /* NetworkManagerMock.swift */,
 			);
 			path = TwitterMovieTests;
-			sourceTree = "<group>";
-		};
-		4435E9DD26A37219007562A2 /* TwitterMovieUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4435E9DE26A37219007562A2 /* TwitterMovieUITests.swift */,
-				4435E9E026A37219007562A2 /* Info.plist */,
-			);
-			path = TwitterMovieUITests;
 			sourceTree = "<group>";
 		};
 		4435E9EC26A3723B007562A2 /* modules */ = {
@@ -290,24 +258,6 @@
 			productReference = 4435E9CF26A37219007562A2 /* TwitterMovieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4435E9D926A37219007562A2 /* TwitterMovieUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4435E9E926A37219007562A2 /* Build configuration list for PBXNativeTarget "TwitterMovieUITests" */;
-			buildPhases = (
-				4435E9D626A37219007562A2 /* Sources */,
-				4435E9D726A37219007562A2 /* Frameworks */,
-				4435E9D826A37219007562A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4435E9DC26A37219007562A2 /* PBXTargetDependency */,
-			);
-			name = TwitterMovieUITests;
-			productName = TwitterMovieUITests;
-			productReference = 4435E9DA26A37219007562A2 /* TwitterMovieUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -321,10 +271,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					4435E9CE26A37219007562A2 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 4435E9B826A37215007562A2;
-					};
-					4435E9D926A37219007562A2 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 4435E9B826A37215007562A2;
 					};
@@ -345,7 +291,6 @@
 			targets = (
 				4435E9B826A37215007562A2 /* TwitterMovie */,
 				4435E9CE26A37219007562A2 /* TwitterMovieTests */,
-				4435E9D926A37219007562A2 /* TwitterMovieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -368,13 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4435EA1426A39F12007562A2 /* TestData.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4435E9D826A37219007562A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,19 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4435E9D426A37219007562A2 /* TwitterMovieTests.swift in Sources */,
 				4435EA1826A39F7B007562A2 /* SearchModelTests.swift in Sources */,
 				4435EA1E26A3B8F5007562A2 /* NetworkManagerMock.swift in Sources */,
 				4435EA1C26A3B8E0007562A2 /* SearchPresenterTests.swift in Sources */,
 				4435EA1626A39F35007562A2 /* TestUtil.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4435E9D626A37219007562A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4435E9DF26A37219007562A2 /* TwitterMovieUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +358,6 @@
 			isa = PBXTargetDependency;
 			target = 4435E9B826A37215007562A2 /* TwitterMovie */;
 			targetProxy = 4435E9D026A37219007562A2 /* PBXContainerItemProxy */;
-		};
-		4435E9DC26A37219007562A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4435E9B826A37215007562A2 /* TwitterMovie */;
-			targetProxy = 4435E9DB26A37219007562A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -663,46 +587,6 @@
 			};
 			name = Release;
 		};
-		4435E9EA26A37219007562A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NN27Z7TQR;
-				INFOPLIST_FILE = TwitterMovieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shalomfriss.TwitterMovieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwitterMovie;
-			};
-			name = Debug;
-		};
-		4435E9EB26A37219007562A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NN27Z7TQR;
-				INFOPLIST_FILE = TwitterMovieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shalomfriss.TwitterMovieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwitterMovie;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -729,15 +613,6 @@
 			buildConfigurations = (
 				4435E9E726A37219007562A2 /* Debug */,
 				4435E9E826A37219007562A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4435E9E926A37219007562A2 /* Build configuration list for PBXNativeTarget "TwitterMovieUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4435E9EA26A37219007562A2 /* Debug */,
-				4435E9EB26A37219007562A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
